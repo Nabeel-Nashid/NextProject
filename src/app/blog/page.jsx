@@ -8,7 +8,7 @@ function Blog() {
   return (
     <div className={styles.mainContainer}>
       
-        <Link href={`#`} className={styles.container}>
+        <Link href={'/blog/testId'} className={styles.container}>
           <div className={styles.imageContainer}>
             <Image
               src={bg}
